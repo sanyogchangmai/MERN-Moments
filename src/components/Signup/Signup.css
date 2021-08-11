@@ -1,0 +1,18 @@
+.email,
+.password {
+  width: 24rem;
+}
+.signup {
+  padding-top: 9rem;
+}
+.btn-signup {
+  width: 24rem;
+}
+
+@media only screen and (max-width: 420px) {
+  .email,
+  .password,
+  .btn-signup {
+    max-width: 90%;
+  }
+}

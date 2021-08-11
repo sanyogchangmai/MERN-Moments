@@ -1,0 +1,18 @@
+.email,
+.password {
+  width: 24rem;
+}
+.update-profile {
+  padding-top: 9rem;
+}
+.btn-update-profile {
+  width: 24rem;
+}
+
+@media only screen and (max-width: 420px) {
+  .email,
+  .password,
+  .btn-update-profile {
+    max-width: 90%;
+  }
+}
